@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+/* main background  */
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: rgba(0, 14, 39, 0.815);
+  font-family: sans-serif;
+}
+
+/* image min and max size as well as space between  */
+img {
+  margin: 20px auto;
+  padding: 25px;
+  max-width: 25%;
+  min-width: 25%;
+}
+
+/* giphy party text styling */
+h1 {
+  margin: 4% auto;
+  position: relative;
+  font-size: 120px;
+  color: white;
+  text-shadow: 10px 10px 5px black;
+}
+
+/* box for headline bg color  */
+#headline {
+  background: rgba(0, 14, 39, 0.384);
+}
+
+/* positioning the form  */
+form,
+#headline {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background: black; */
+}
+
+form {
+  background: rgba(100, 115, 141, 0.11);
+}
+
+/* styling input and buttons */
+input,
+button {
+  margin: 3% 5px;
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+  font-size: 30px;
+  padding: 25px;
+}
+
+/* fonts werent changing for buttons dont know why  */
+button {
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding: 25px 32px;
+}
+
+/* separate colors for buttons */
+#search-btn {
+  background: rgba(46, 89, 165, 0.664);
+}
+#remove-btn {
+  background: rgb(117, 53, 53);
+}
+
+/* button kinda ugly hover effect  */
+button:hover {
+  border: 2px solid white;
+  text-shadow: 2px 2px 5px black;
+  transition: border ease-in 50ms, text-shadow ease-in 50ms;
+}
+
+#search:focus {
+  background: rgb(233, 233, 233);
+}
